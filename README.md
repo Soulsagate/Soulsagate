@@ -1,6 +1,6 @@
 <!-- Profile README — lives in a repo named exactly "Soulsagate" -->
 
-<h1 align="center">Hi, I'm Soul 👋</h1>
+<h1 align="center">Hi, I'm S0uls 👋</h1>
 
 <p align="center">
   <b>Cybersecurity student & aspiring penetration tester</b> — breaking things to learn how to defend them.
