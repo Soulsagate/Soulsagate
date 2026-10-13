@@ -67,5 +67,5 @@
 ---
 
 <p align="center">
-  <i>YOUR LINE HERE</i>
+  <i>"Its embarrassin' comparison"</i>
 </p>
