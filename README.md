@@ -64,12 +64,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a" height="150" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Soulsagate&theme=onedark&no-frame=true&row=1&column=6" />
-</p>
-
 ---
 
 <p align="center">
-  <i>"Try harder."</i>
+  <i>YOUR LINE HERE</i>
 </p>
