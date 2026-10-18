@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tryhackme.com/p/S0uls"><img src="https://tryhackme-badges.s3.amazonaws.com/S0uls.png" alt="TryHackMe S0uls" /></a>
+  <a href="https://tryhackme.com/p/S0uls"><img src="https://img.shields.io/badge/TryHackMe-%231%20Bahrain%20%C2%B7%20Top%201%25-c8a24a?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=20242e" alt="TryHackMe S0uls" /></a>
 </p>
 
 ---
