@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/Goal-Cybersecurity%20Professional-b88d34?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <a href="https://tryhackme.com/p/S0uls"><img src="https://tryhackme-badges.s3.amazonaws.com/S0uls.png" alt="TryHackMe S0uls" /></a>
+</p>
+
 ---
 
 ### 🧠 About me
@@ -44,24 +48,27 @@
 
 ---
 
-### 📦 Featured project
+### 📦 Featured projects
 
 > **🏨 Checked In** — a vulnerable boot-to-root machine I built from scratch for TryHackMe.
 > A boutique hotel's staff portal with one too many security vacancies: **UNION-based SQL injection → hash cracking → SSH foothold → sudo privilege escalation**. Built on Debian, fully documented with a walkthrough and build notes.
 >
 > *(Repo goes public once the room is live — stay tuned.)*
 
+> **🎨 [hypr-material-you](https://github.com/Soulsagate/hypr-material-you)** — a wallpaper-driven **Material-You** Hyprland desktop.
+> A capsule-pill Quickshell bar with a custom click-to-focus taskbar, matugen theming that recolors rofi, Hyprland and Spotify from the wallpaper, blur and Material-3 animations. Built on top of the 43PR dotfiles.
+
 ---
 
 ### 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soulsagate&theme=dark&hide_border=true&background=0d0f13&ring=c8a24a&fire=c8a24a&currStreakLabel=c8a24a" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=2" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soulsagate&theme=dark&hide_border=true&background=0d0f13&ring=c8a24a&fire=c8a24a&currStreakLabel=c8a24a&v=2" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&v=2" height="150" />
 </p>
 
 ---
