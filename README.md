@@ -63,12 +63,12 @@
 ### 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=2" height="165" />
+  <img src="https://github-readme-stats-nu-inky.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=2" height="165" />
   <img src="https://streak-stats.demolab.com/?user=Soulsagate&theme=dark&hide_border=true&background=0d0f13&ring=c8a24a&fire=c8a24a&currStreakLabel=c8a24a" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&v=2" height="150" />
+  <img src="https://github-readme-stats-nu-inky.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&v=2" height="150" />
 </p>
 
 <p align="center">
