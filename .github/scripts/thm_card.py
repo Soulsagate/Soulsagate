@@ -12,6 +12,8 @@ import datetime
 import html
 import json
 import sys
+import time
+import urllib.error
 import urllib.request
 
 UA = "Mozilla/5.0 (compatible; Soulsagate-profile-card; +https://github.com/Soulsagate)"
@@ -20,10 +22,19 @@ ENDPOINTS = [
 ]
 
 
-def fetch(url: str) -> dict:
+def fetch(url: str, tries: int = 3):
+    """GET JSON, waiting and retrying when THM answers 429 (it rate-limits shared CI IPs)."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.load(resp)
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == tries - 1:
+                raise
+            wait = min(int(exc.headers.get("Retry-After") or 0) or 15 * (attempt + 1), 60)
+            print(f"429 from {url}, retrying in {wait}s")
+            time.sleep(wait)
 
 
 def shape(obj, depth=0) -> list[str]:
@@ -71,6 +82,18 @@ def profile(user: str) -> dict:
         if stats["rank"] is not None and stats["rooms"] is not None:
             return stats
         errors.append(f"{url}: rank/rooms missing")
+    # Older public endpoints, one number each
+    try:
+        stats = {"level": None, "top": None, "streak": None, "points": None,
+                 "rank": fetch(f"https://tryhackme.com/api/user/rank/{user}").get("userRank"),
+                 "rooms": fetch(f"https://tryhackme.com/api/no-completed-rooms-public/{user}"),
+                 "badges": len(fetch(f"https://tryhackme.com/api/badges/get/{user}") or [])}
+        print("legacy:", stats)
+        if stats["rank"] is not None and stats["rooms"] is not None:
+            return stats
+        errors.append("legacy endpoints: rank/rooms missing")
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"legacy endpoints: {exc}")
     raise SystemExit("no usable TryHackMe profile data:\n  " + "\n  ".join(errors))
 
 
