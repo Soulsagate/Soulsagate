@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tryhackme.com/p/S0uls"><img src="https://img.shields.io/badge/TryHackMe-%231%20Bahrain%20%C2%B7%20Top%201%25-c8a24a?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=20242e" alt="TryHackMe S0uls" /></a>
+  <a href="https://tryhackme.com/p/S0uls"><img src="https://img.shields.io/badge/TryHackMe-0xE%20Guardian%20%C2%B7%20Top%201%25%20%C2%B7%20%231%20Bahrain-c8a24a?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=20242e" alt="TryHackMe S0uls" /></a>
 </p>
 
 ---
@@ -21,7 +21,7 @@
 ### 🧠 About me
 
 - 🎓 Computer Science & Cybersecurity student
-- 🛡️ Living on **[TryHackMe](https://tryhackme.com/p/S0uls)** — **consistently #1 on Bahrain's monthly leaderboard**, **Top 1%** globally, **[0xD] LEGEND** with **128+ rooms** completed
+- 🛡️ Living on **[TryHackMe](https://tryhackme.com/p/S0uls)** — **[0xE] Guardian**, **Top 1%** globally, **Diamond** league, **consistently #1 on Bahrain's monthly leaderboard**, with **128+ rooms** completed and a **63-day** best streak
 - 🏨 I don't just solve rooms — I **build** them, and I write my own **recon tooling** (see featured below)
 - 📝 Every room I finish gets a writeup in **[thm-writeups](https://github.com/Soulsagate/thm-writeups)**
 - 📜 Certified: **Google Cybersecurity Professional Certificate** · **TryHackMe Pre Security**
