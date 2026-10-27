@@ -73,7 +73,7 @@
 
 #### Also
 
-- 📝 **[thm-writeups](https://github.com/Soulsagate/thm-writeups)**: Boiler CTF · Anonforce · 0day (Shellshock) · Reverse Shells, each step by step.
+- 📝 **[thm-writeups](https://github.com/Soulsagate/thm-writeups)**: Fowsniff Corp · Boiler CTF · Anonforce · 0day (Shellshock) · Reverse Shells, each step by step.
 - 🏨 **Checked In**: a boot-to-root machine I built for TryHackMe. A hotel staff portal: **UNION SQL injection → hash cracking → SSH foothold → sudo privesc**. *(Repo goes public once the room is live.)*
 
 ---
