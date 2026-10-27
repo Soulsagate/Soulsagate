@@ -65,7 +65,7 @@
 
 #### 🛰️ Spotlight: soul-toolkit [![Latest release](https://img.shields.io/github/v/release/Soulsagate/soul-toolkit?style=flat&color=c8a24a&labelColor=20242e)](https://github.com/Soulsagate/soul-toolkit/releases/latest)
 
-`toolkit recon <ip>` runs a staged nmap scan, then follow-ups for 13 services (web content discovery and vhost fuzzing, anonymous FTP, SMB shares checked for read access, NFS exports, SNMP, databases and more) plus Exploit-DB lookups, and ends with a **ranked "Where to start" list**: what to try first, why, and the exact command. You get an offline HTML report, Markdown and JSON, plus an **Obsidian-ready writeup** with `--writeup`. No Python dependencies, and CI runs it against its own deliberately vulnerable Docker lab on every push.
+`toolkit recon 10.10.42.17` runs a staged nmap scan, then follow-ups for 14 services (web content discovery and vhost fuzzing, anonymous FTP, SMB shares checked for read access, NFS exports, POP3/IMAP mail, SNMP, databases and more) plus Exploit-DB lookups, and ends with a **ranked "Where to start" list**: what to try first, why, and the exact command. You get an offline HTML report, Markdown and JSON, plus an **Obsidian-ready writeup** with `--writeup`. No Python dependencies, and CI runs it against its own deliberately vulnerable Docker lab on every push.
 
 <p align="center">
   <a href="https://github.com/Soulsagate/soul-toolkit"><img src="https://raw.githubusercontent.com/Soulsagate/soul-toolkit/main/docs/report-dark.png" width="85%" alt="soul-toolkit HTML report, dark theme: findings sorted by severity with a filter bar" /></a>
