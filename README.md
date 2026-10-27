@@ -55,8 +55,9 @@
 
 ### 📦 Featured projects
 
-> **🛰️ [soul-toolkit](https://github.com/Soulsagate/soul-toolkit)** — a modular pentest toolkit for authorized labs and CTFs, written in Python.
-> Its flagship command, `toolkit recon <ip>`, runs a staged nmap scan, then service-aware follow-ups (web content discovery with wildcard handling, vhost fuzzing, anonymous FTP and SMB null-session checks, searchsploit lookups) and ends with a **ranked "Where to start" list** of copy-paste next steps. Outputs Markdown, JSON and HTML reports, plus an **Obsidian-ready writeup skeleton** with `--writeup`. Zero runtime dependencies, fully tested.
+> **🛰️ [soul-toolkit](https://github.com/Soulsagate/soul-toolkit)** — a recon tool for authorized labs and CTFs, written in Python. [![Latest release](https://img.shields.io/github/v/release/Soulsagate/soul-toolkit?style=flat&color=c8a24a&labelColor=20242e)](https://github.com/Soulsagate/soul-toolkit/releases/latest)
+> `toolkit recon <ip>` runs a staged nmap scan, then follow-ups for 13 services (web content discovery and vhost fuzzing, anonymous FTP, SMB shares checked for read access, NFS exports, SNMP, databases and more) plus Exploit-DB lookups, and ends with a **ranked "Where to start" list**: what to try first, why, and the exact command. You get an offline HTML report, Markdown and JSON, plus an **Obsidian-ready writeup** with `--writeup`.
+> No Python dependencies, and CI runs it against its own deliberately vulnerable Docker lab on every push.
 
 > **🏨 Checked In** — a vulnerable boot-to-root machine I built from scratch for TryHackMe.
 > A boutique hotel's staff portal with one too many security vacancies: **UNION-based SQL injection → hash cracking → SSH foothold → sudo privilege escalation**. Built on Debian, fully documented with a walkthrough and build notes.
@@ -64,7 +65,7 @@
 > *(Repo goes public once the room is live — stay tuned.)*
 
 > **📝 [thm-writeups](https://github.com/Soulsagate/thm-writeups)** — step-by-step writeups for the TryHackMe rooms and CTFs I complete.
-> Recent: **Anonforce** (anonymous FTP → PGP key cracking → shadow file), **0day** (Shellshock → OverlayFS privesc), **Reverse Shells** (command injection, file-upload web shells).
+> Rooms so far: **Boiler CTF** (sar2HTML → leaked credentials → SUID `find` privesc), **Anonforce** (anonymous FTP → PGP key cracking → shadow file), **0day** (Shellshock → OverlayFS privesc), **Reverse Shells** (command injection, file-upload web shells).
 
 > **🎨 [hypr-material-you](https://github.com/Soulsagate/hypr-material-you)** — a wallpaper-driven **Material-You** Hyprland desktop.
 > A capsule-pill Quickshell bar with a custom click-to-focus taskbar, matugen theming that recolors rofi, Hyprland and Spotify from the wallpaper, blur and Material-3 animations. Built on top of the 43PR dotfiles.
@@ -74,12 +75,12 @@
 ### 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-nu-inky.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=3" height="165" />
-  <img src="https://streak-stats.demolab.com/?user=Soulsagate&theme=dark&hide_border=true&background=0d0f13&ring=c8a24a&fire=c8a24a&currStreakLabel=c8a24a" height="165" />
+  <img src="https://github-readme-stats-nu-inky.vercel.app/api?username=Soulsagate&show_icons=true&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=4" height="165" />
+  <img src="https://streak-stats.demolab.com/?user=Soulsagate&theme=dark&hide_border=true&background=0d0f13&ring=c8a24a&fire=c8a24a&currStreakLabel=c8a24a&v=4" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-nu-inky.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&v=3" height="150" />
+  <img src="https://github-readme-stats-nu-inky.vercel.app/api/top-langs/?username=Soulsagate&layout=compact&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&v=4" height="150" />
 </p>
 
 <p align="center">
