@@ -55,20 +55,26 @@
 
 ### 📦 Featured projects
 
-> **🛰️ [soul-toolkit](https://github.com/Soulsagate/soul-toolkit)** — a recon tool for authorized labs and CTFs, written in Python. [![Latest release](https://img.shields.io/github/v/release/Soulsagate/soul-toolkit?style=flat&color=c8a24a&labelColor=20242e)](https://github.com/Soulsagate/soul-toolkit/releases/latest)
-> `toolkit recon <ip>` runs a staged nmap scan, then follow-ups for 13 services (web content discovery and vhost fuzzing, anonymous FTP, SMB shares checked for read access, NFS exports, SNMP, databases and more) plus Exploit-DB lookups, and ends with a **ranked "Where to start" list**: what to try first, why, and the exact command. You get an offline HTML report, Markdown and JSON, plus an **Obsidian-ready writeup** with `--writeup`.
-> No Python dependencies, and CI runs it against its own deliberately vulnerable Docker lab on every push.
+<p align="center">
+  <a href="https://github.com/Soulsagate/soul-toolkit"><img src="https://github-readme-stats-nu-inky.vercel.app/api/pin/?username=Soulsagate&repo=soul-toolkit&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=4" alt="soul-toolkit" /></a>
+  <a href="https://github.com/Soulsagate/thm-writeups"><img src="https://github-readme-stats-nu-inky.vercel.app/api/pin/?username=Soulsagate&repo=thm-writeups&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=4" alt="thm-writeups" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Soulsagate/hypr-material-you"><img src="https://github-readme-stats-nu-inky.vercel.app/api/pin/?username=Soulsagate&repo=hypr-material-you&theme=dark&hide_border=true&bg_color=0d0f13&title_color=c8a24a&icon_color=c8a24a&v=4" alt="hypr-material-you" /></a>
+</p>
 
-> **🏨 Checked In** — a vulnerable boot-to-root machine I built from scratch for TryHackMe.
-> A boutique hotel's staff portal with one too many security vacancies: **UNION-based SQL injection → hash cracking → SSH foothold → sudo privilege escalation**. Built on Debian, fully documented with a walkthrough and build notes.
->
-> *(Repo goes public once the room is live — stay tuned.)*
+#### 🛰️ Spotlight: soul-toolkit [![Latest release](https://img.shields.io/github/v/release/Soulsagate/soul-toolkit?style=flat&color=c8a24a&labelColor=20242e)](https://github.com/Soulsagate/soul-toolkit/releases/latest)
 
-> **📝 [thm-writeups](https://github.com/Soulsagate/thm-writeups)** — step-by-step writeups for the TryHackMe rooms and CTFs I complete.
-> Rooms so far: **Boiler CTF** (sar2HTML → leaked credentials → SUID `find` privesc), **Anonforce** (anonymous FTP → PGP key cracking → shadow file), **0day** (Shellshock → OverlayFS privesc), **Reverse Shells** (command injection, file-upload web shells).
+`toolkit recon <ip>` runs a staged nmap scan, then follow-ups for 13 services (web content discovery and vhost fuzzing, anonymous FTP, SMB shares checked for read access, NFS exports, SNMP, databases and more) plus Exploit-DB lookups, and ends with a **ranked "Where to start" list**: what to try first, why, and the exact command. You get an offline HTML report, Markdown and JSON, plus an **Obsidian-ready writeup** with `--writeup`. No Python dependencies, and CI runs it against its own deliberately vulnerable Docker lab on every push.
 
-> **🎨 [hypr-material-you](https://github.com/Soulsagate/hypr-material-you)** — a wallpaper-driven **Material-You** Hyprland desktop.
-> A capsule-pill Quickshell bar with a custom click-to-focus taskbar, matugen theming that recolors rofi, Hyprland and Spotify from the wallpaper, blur and Material-3 animations. Built on top of the 43PR dotfiles.
+<p align="center">
+  <a href="https://github.com/Soulsagate/soul-toolkit"><img src="https://raw.githubusercontent.com/Soulsagate/soul-toolkit/main/docs/report-dark.png" width="85%" alt="soul-toolkit HTML report, dark theme: findings sorted by severity with a filter bar" /></a>
+</p>
+
+#### Also
+
+- 📝 **[thm-writeups](https://github.com/Soulsagate/thm-writeups)**: Boiler CTF · Anonforce · 0day (Shellshock) · Reverse Shells, each step by step.
+- 🏨 **Checked In**: a boot-to-root machine I built for TryHackMe. A hotel staff portal: **UNION SQL injection → hash cracking → SSH foothold → sudo privesc**. *(Repo goes public once the room is live.)*
 
 ---
 
